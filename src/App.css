@@ -18,7 +18,7 @@ a {
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 nav {
@@ -79,6 +79,18 @@ header {
   padding: 10px;
 }
 
+@media only screen and (max-width: 780px) {
+  header {
+    height: 450px;
+  }
+  .banner img {
+    display: none;
+  }
+  .faq {
+    display: none;
+  }
+}
+
 .banner {
   max-width: 80%;
   margin: 20px auto;
@@ -115,14 +127,10 @@ h2::after {
   transform: translate(-50%);
 }
 
-h3 {
-  text-align: center;
-  font-size: 26px;
-}
-
 h4,
 h5 {
   margin: 20px 0 0 0;
+  font-weight: 500;
 }
 
 .banner img {
@@ -157,4 +165,8 @@ h5 {
 .product img {
   height: 300px;
   justify-self: center;
+}
+
+.product button {
+  margin-top: 20px;
 }
