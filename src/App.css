@@ -15,6 +15,8 @@ nav {
 
 a {
   font-size: 18px;
+  text-decoration: none;
+  color: #000;
 }
 
 main {
@@ -174,4 +176,8 @@ h5 {
 
 .product button {
   margin-top: 20px;
+}
+
+.loader {
+  width: 100px;
 }
