@@ -1,4 +1,4 @@
-# DigiComWeb Starter Project
+# DigiComWeb
 
 ![digicomweb](https://github.com/rahul-sr/DigiComWeb/assets/16071840/ffab33e5-8068-463c-910d-f649486e3399)
 
